@@ -1,35 +1,38 @@
 #include "main.h"
 
 /**
- * print_number - prints # using _putchar function
- * @n: the integer to print
+ * print_number - prints number to stdout
+ * @n:number to print
  *
- * Return: void
+ * Return:void
  */
 void print_number(int n)
 {
-	int copy, nth, size = 1, ones = n % 10;
+	int digit, divisor = 1;
 
-	n /= 10;
-	copy = n;
-	if (ones < 0)
+	if (n == 0)
 	{
-		ones *= -1, copy *= -1, n *= -1;
+		_putchar('0');
+		return;
+	}
+
+	if (n < 0)
+	{
 		_putchar('-');
+		n = -1 * n;
 	}
-	if (copy > 0)
+
+	while (divisor <= n)
 	{
-		while (copy / 10 != 0)
-		{
-			copy /= 10, size *= 10;
-		}
-		while (size > 0)
-		{
-			nth = n / size;
-			_putchar('0' + nth);
-			n -= nth * size;
-			size /= 10;
-		}
+		divisor *= 10;
 	}
-	_putchar('0' + ones);
+	divisor /= 10;
+
+	while (divisor > 0)
+	{
+		digit = n / divisor;
+		_putchar(digit + '0');
+		n -= digit * divisor;
+		divisor /= 10;
+	}
 }
