@@ -4,6 +4,7 @@
  * _strncat - concatenates destination string with n bytes from source string
  * @dest:pointer to destination string
  * @src:pointer to source string
+ * @n:bytes to be copied
  *
  * Return:pointer to destination string concatenated
  */
