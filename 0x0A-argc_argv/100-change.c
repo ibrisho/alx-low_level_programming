@@ -29,3 +29,4 @@ int main(int a, char **b)
   printf("%d\n", coins);
   return (0);
 }
+

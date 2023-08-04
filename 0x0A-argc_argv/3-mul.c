@@ -16,3 +16,4 @@ int main(int a, char **b)
   printf("%d\n", atoi(*(b + 1)) * atoi(*(b + 2)));
   return (0);
 }
+

@@ -28,3 +28,4 @@ int main(int a, char **b)
   printf("%d\n", sum);
   return (0);
 }
+
