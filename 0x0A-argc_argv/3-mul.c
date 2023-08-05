@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - Entry Point
  * @a: number of args
@@ -8,12 +9,11 @@
  */
 int main(int a, char **b)
 {
-  if (a < 3)
-    {
-      printf("Error\n");
-      return (1);
-    }
-  printf("%d\n", atoi(*(b + 1)) * atoi(*(b + 2)));
-  return (0);
+	if (a < 3)
+	{
+		printf("Error\n");
+		return (1);
+	}
+	printf("%d\n", atoi(*(b + 1)) * atoi(*(b + 2)));
+	return (0);
 }
-

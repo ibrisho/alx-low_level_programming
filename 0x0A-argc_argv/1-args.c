@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Entry Point
  * @a: number of args
@@ -7,8 +8,7 @@
  */
 int main(int a, char **b)
 {
-  (void)b;
-  printf("%d\n", a - 1);
-  return (0);
+	(void)b;
+	printf("%d\n", a - 1);
+	return (0);
 }
-
