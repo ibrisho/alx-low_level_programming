@@ -2,7 +2,7 @@
 	.section	.rodata
 CLI
 .LC0:
-	.string	"Hello, HOLBERTON"
+	.string	"Hello, Holberton"
 	.text
 	.globl	main
 	.type	main, @function
