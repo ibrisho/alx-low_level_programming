@@ -17,7 +17,7 @@ Provided by Alx School.
 
 ## Header File :file_folder:
 
-* [m.h](./m.h): Header file defining the function prototype used in `holberton.c`.
+* [m.h](./m.h): Header file defining the function prototype used in `school.c`.
 Provided by Alx School.
 
 ## Tasks :page_with_curl:
