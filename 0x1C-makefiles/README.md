@@ -6,7 +6,7 @@ In this project, I practiced writing Makefiles.
 
 * [tests](./tests): Folder of test files. Provided by Alx School.
 
-## Helper Files :raised_hands:
+## Helper Files
 
 * [school.c](./school.c): C function that displays a seahorse in text.
 Used for Makefile practice purposes throughout project. Provided by Alx School.
